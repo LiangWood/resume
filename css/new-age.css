@@ -9,6 +9,12 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 a {
   color: #fdcc52;
   -webkit-transition: all .35s;
@@ -442,7 +448,7 @@ html {
   height: 100%;
 }
 
-html,
+/* html,
 body,
 div,
 span,
@@ -529,9 +535,11 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-}
+} */
 
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Noto Sans CJK TC", Muli, "微軟正黑體", Helvetica, Arial, sans-serif;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -1004,7 +1012,9 @@ footer ul li a:hover {
 .box img {
   min-height: 200px;
 }
-
+.works-items{
+  flex-flow: wrap;
+}
 .works-items li {
   display: inline-block;
 }
