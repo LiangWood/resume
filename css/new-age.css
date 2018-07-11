@@ -1026,6 +1026,7 @@ footer ul li a:hover {
 }
 
 .title {
+  text-align: center;
   background: rgba(0, 0, 0, 0.7);
   position: absolute;
   width: 100%;
