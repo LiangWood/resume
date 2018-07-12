@@ -1013,7 +1013,12 @@ footer ul li a:hover {
   min-height: 200px;
 }
 .works-items{
-  flex-flow: wrap;
+  flex-flow: nowrap;
+}
+@media(max-width:994px){
+  .works-items{
+    flex-flow: wrap;
+  }
 }
 .works-items li {
   display: inline-block;
